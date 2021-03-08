@@ -33,25 +33,27 @@ li {
 }
 
 ::-moz-list-bullet
-font-size:  */
+font-size:  
 
-//_________--------------___________----------______________
-body {
+
+*/
+ body {
     margin: 0;
+    background-color: tomato;
   }
   
   header {
-    background-color: #0b1c51;
+    background-color: hsl(263, 85%, 24%);
     margin-bottom: 40px;
   }
   
   header h1 {
-    font-family: "Gochi Hand";
+    font-family: 'Courier New';
     font-size: 52px;
-    color: #fff;
+    color: white;
     text-align: center;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   header nav {
@@ -64,9 +66,9 @@ body {
     padding-left: 0;
     list-style: none;
   }
-  /* header nav ul li a:hover {
-    color: #bdbdbd;
-  } */
+  header nav ul li a:hover {
+    color: hsla(133, 97%, 36%, 0.705);
+  } 
   
   header nav li a {
     font-family: Montserrat;
@@ -81,25 +83,25 @@ body {
   @media all and (min-width: 600px) {
     header {
       display: flex;
-      justify-content: space-between;
+      /* justify-content: space-between; */
       padding: 0 30px;
     }
   
     header h1 {
-      font-size: 42px;
+      font-size: 48px;
       margin: 14px 0;
       padding-top: 6px;
-      
+      color: white;
 
     }
   
     header nav {
-      margin-top: 14px;
+      margin-top: 44px;
     }
   
     header nav ul li a:hover {
-      color: #bdbdbd;
+      color: hsla(133, 97%, 36%, 0.705);
     }
   }
   
-  
+   
